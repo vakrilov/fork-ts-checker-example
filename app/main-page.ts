@@ -28,4 +28,10 @@ export function navigatingTo(args: EventData) {
     https://docs.nativescript.org/core-concepts/data-binding.
     */
     page.bindingContext = new HelloWorldModel();
+
+
+    const id: number = setTimeout(() => {
+        console.log("timer with id: " + id);
+    }, 1000);
+
 }
